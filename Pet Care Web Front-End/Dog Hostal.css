@@ -1,0 +1,299 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f2f2f2;
+     background-image: url(photo-1507146426996-ef05306b995a.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+     height: 110vh;
+ }
+ 
+.Photo1 img{
+     width: 40px;
+     height: 40px;
+     margin: 8px;
+     border-radius: 50px;
+     border: 3px solid white;
+}
+ 
+.Photo2 img{
+     width: 40px;
+     height: 40px;
+     margin: 8px;
+     border-radius: 50px;
+     border: 3px solid white;
+}
+  
+.Photo3 {
+     margin: 0 auto;
+     margin-top: -25px;
+     color: white;
+     text-align: right;
+     font-family: "Love Ya Like A Sister", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 35px;
+ }
+  
+.top-header {
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(84, 3, 160);
+     height: 65px;
+     margin-bottom: 0;
+}
+  
+.navbar {
+     display: flex;
+     justify-content: flex-end;
+     background-color: rgb(84, 3, 160);
+     height: 58px;
+     margin-top: 0;
+}
+  
+nav ul {
+     list-style: none;
+     display: flex;
+     font-family: "Caveat Brush", cursive;
+     font-style: normal;
+     font-size: 15px;
+}
+  
+.navbar a {
+     color: rgb(255, 255, 255);
+     padding: 15px;
+     text-decoration: none;
+     right: 0px;
+}
+  
+.navbar a:hover {
+     background-color: rgb(59, 1, 97);
+     border-radius: 8px;
+}
+  
+nav li {
+     margin-right: 20px;
+}
+
+.container {
+     width: 500px;
+     height: 700px;
+     margin: 3% auto;
+     padding: 40px;
+     background-color: #0000009d;
+     border-radius: 10px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     text-align: left;
+     border: 3px solid rgb(111, 185, 0);
+}
+  
+.Contact1 {
+     color: greenyellow;
+     font-size: 30px;
+     margin-bottom: 20px;
+     text-align: left;
+     font-family: "Langar", system-ui;
+     font-weight: 500;
+     font-style: normal;
+}
+
+.Contact1 span {
+     font-size: 40px;
+}
+
+.hr {
+     background-color: greenyellow;
+     border: none;
+     border-radius: 5px;
+     width: 300px;
+     height: 3px;
+     left: 0px;
+     margin-left: 0px;
+     margin-top: 0.5px;
+}
+  
+label {
+     display: block;
+     margin-bottom: 10px;
+     color: #ffffff;
+     column-rule-color: #ffb300;
+     font-family: "Kotta One", serif;
+     font-weight: 500;
+     font-style: normal;
+     font-size: 24px;
+}
+  
+input[type="date"],
+input[type="number"] {
+     width: 95%;
+     padding: 10px;
+     border: 3px solid hsl(0, 0%, 45%);
+     border-radius: 7px;
+     margin-bottom: 10px;
+     font-size: 18px;
+     font-weight: 50px;
+     font-family: "Kotta One", serif;
+     font-weight: 575;
+     font-style: normal;
+}
+
+textarea {
+     width: 95%;
+     height: 150px;
+     padding: 10px;
+     border: 7px solid hsl(0, 0%, 45%);
+     border-radius: 3px;
+     margin-bottom: 15px;
+}
+ 
+.name1 {
+     font-family: "Kotta One", serif;
+     font-weight: 800;
+     font-style: normal;
+     font-size: 28px;
+}
+ 
+.container button {
+     background-color: #ffc107;
+     align-items: center;
+     font-weight: bold;
+     color: #000;
+     padding: 25px 35px;
+     border: none;
+     border-radius: 7px;
+     cursor: pointer;
+     transition: background-color 0.2s ease-in-out;
+     text-decoration: none;
+     text-transform: none;
+     font-family: "Caveat Brush", cursive;
+     font-style: normal;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin: 20px;
+     margin-left: 35%;
+     margin-top: 7%;
+}
+
+button a{
+     text-decoration: none;
+     color: #000;
+}
+ 
+.container button:hover {
+     background-color: #ffffff;
+     border: 3px solid red;
+     border-radius: 8px;
+}
+
+.footer1 {
+     background-color: #53039e;
+     color: #fff;
+     padding: 10px;
+     right: 0;
+     left: 0;
+     bottom: 0px;
+     display: flow-root;
+     justify-content: space-between;
+     margin-top: auto;
+     position: relative;
+}
+  
+.section1 {
+     font-family: "Lobster", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     width: 25%;
+     text-align: center;
+}
+  
+.section1 img {
+     height: 90px;
+     width: 90px;
+     border-radius: 15%;
+     border-radius: 50%;
+     border: 3px solid rgb(185, 185, 185);
+}
+  
+.section2 {
+     font-family: "Tillana", system-ui;
+     font-weight: 800;
+     font-style: normal;
+     font-size: 10px;
+     width: 25%;
+     text-align: center;
+     color: white;
+}
+  
+.section1 span {
+     font-size: 20px;
+     font-weight: bold;
+}
+  
+  
+.section2 ul a{
+     color: white;
+     text-decoration: none;
+     font-size: 12px;
+}
+ 
+.section2 ul li{
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+ 
+.section3 {
+     font-family: "Tillana", system-ui;
+     font-weight: 800;
+     font-style: normal;
+     font-size: 10px;
+     width: 25%;
+}
+  
+.section4 {
+     font-family: "Tillana", system-ui;
+     font-weight: 800;
+     font-style: normal;
+     font-size: 10px;
+     width: 25%;
+}
+  
+.PGA {
+     font-size: 20px;
+}
+ 
+.addressicon {
+     background: url("css-sprite-combined.png") 0px -0px;
+     height: 100px;
+     width: 100px;
+     zoom: 50%;
+}
+  
+.phoneicon {
+     background: url("css-sprite-combined.png")-100px -0px;
+     height: 100px;
+     width: 100px;
+     zoom: 50%;
+}
+  
+.emailicon {
+     background: url("css-sprite-combined.png") -200px -0px;
+     height: 100px;
+     width: 100px;
+     zoom: 50%;
+}
+
+.h3 {
+     text-align: center;
+     color: white;
+     background-color: rgb(61, 61, 61);
+     margin-top: 0;
+     margin-bottom: 0;
+     padding: 10px;
+     font-size: 13px;
+     font-family: "Kotta One", serif;
+     font-weight: 400;
+     font-style: normal;
+}
