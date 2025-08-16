@@ -1,0 +1,369 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     padding: 0;
+     margin: 0px;
+     box-sizing: border-box;
+     background-color: #000;
+}
+
+.Photo1 img{
+     width: 40px;
+     height: 40px;
+     margin: 8px;
+     border-radius: 50px;
+     border: 3px solid white;
+ }
+ 
+ .Photo2 img{
+     width: 40px;
+     height: 40px;
+     margin: 8px;
+     border-radius: 50px;
+     border: 3px solid white;
+ }
+ 
+ .Photo3 {
+     margin: 0 auto;
+     margin-top: 1.5%;
+     color: white;
+     text-align: right;
+     font-family: "Love Ya Like A Sister", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 35px;
+ }
+ 
+ .top-header {
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(84, 3, 160);
+     height: 65px;
+     margin-bottom: 0;
+ }
+ 
+ .navbar {
+     display: flex;
+     justify-content: flex-end;
+     background-color: rgb(84, 3, 160);
+     height: 58px;
+     margin-top: 0;
+ }
+ 
+ nav ul {
+     list-style: none;
+     display: flex;
+     font-family: "Caveat Brush", cursive;
+     font-style: normal;
+     font-size: 15px;
+     margin-top: 4%;
+ }
+ 
+ .navbar a {
+     color: rgb(255, 255, 255);
+     padding: 15px;
+     text-decoration: none;
+     right: 0px;
+ }
+ 
+ .navbar a:hover {
+     background-color: rgb(59, 1, 97);
+     border-radius: 8px;
+ }
+ 
+ nav li {
+     margin-right: 20px;
+ }
+
+.PG {
+     top: 10%;
+}
+
+.PGAD {
+     width: 600px;
+     height: 725px;
+     background: #1284cf;
+     border-radius: 7px;
+     color: white;
+     margin: 30px;
+     box-shadow: #ffffff;
+     margin-left: 26%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     padding-top: 15px;
+}
+
+.h1 {
+     font-size: 28px;
+     text-align: left;
+     margin: 20px;
+     margin-left: 10%;
+     color: #000000;
+     font-family: "Langar", system-ui;
+     font-weight: 400;
+     font-style: normal;
+     font-weight: bold;
+     margin-top: 10px;
+}
+
+.h1 a {
+     margin-top: 30px;
+}
+
+
+.PGAD span {
+     font-size: 45px;
+}
+
+.hr {
+     width: 45%;
+     height: 3px;
+     background-color: #000000;
+     border: none;
+     border-radius: 5px;
+}
+
+label {
+     display: block;
+     margin-bottom: 10px;
+     color: #ffffff;
+     column-rule-color: #ffb300;
+     font-family: "Kotta One", serif;
+     font-weight: 500;
+     font-style: normal;
+     font-size: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+     width: 80%;
+     border-radius: 5px;
+     margin-bottom: 20px;
+     font-size: 16px;
+     font-family: "Kotta One", serif;
+     font-weight: 580;
+     font-weight: bold;
+     font-style: normal;
+     color: rgb(0, 0, 0);
+     padding: 15px;
+}
+
+textarea {
+     width: 80%;
+     border-radius: 5px;
+     margin-bottom: 20px;
+     font-size: 16px;
+     font-family: "Kotta One", serif;
+     font-weight: 580;
+     font-weight: bold;
+     font-style: normal;
+     color: rgb(0, 0, 0);
+     padding: 15px;
+}
+
+
+.GNS::placeholder {
+     position: absolute;
+     left: 15px;
+     top: 10px;
+     font-family: "Sriracha", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 15px;
+}
+
+.GNS1::placeholder {
+     position: absolute;
+     left: 15px;
+     top: 10px;
+     font-family: "Sriracha", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 15px;
+}
+
+.GNS {
+     width: 70px;
+     height: 50px;
+     border-radius: 3px;
+     border: none;
+     margin-left: 60px;
+}
+
+.GNS1 {
+     width: 80%;
+     height: 130px;
+     border-radius: 5px;
+     border: none;
+     margin-left: 62px;
+}
+
+.GNS:focus {
+     background-color: rgb(255, 255, 118);
+}
+
+.GNS1:focus {
+     background-color: rgb(255, 255, 118);
+}
+
+.button1 {
+     background-color: #ffc107;
+     width: 80%;
+     height: 55px;
+     color: #000;
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+     font-family: "Caveat Brush", cursive;
+     font-weight: 300;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 20px;
+     margin-top: 25px;
+     margin-left: 60px;
+}
+
+.button1 a {
+     text-decoration: none;
+     text-transform: none;
+     color: #000;
+}
+ 
+.button1:hover {
+     background-color: greenyellow;
+     border: 3px solid green;
+}
+
+.footer1 {
+     background-color: #53039e;
+     color: #fff;
+     padding: 10px;
+     right: 0;
+     left: 0;
+     bottom: 0px;
+     display: flow-root;
+     justify-content: space-between;
+     margin-top: auto;
+     position: relative;
+}
+ 
+.section1 {
+     font-family: "Lobster", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     width: 25%;
+     text-align: center;
+}
+ 
+.section1 img {
+     height: 90px;
+     width: 90px;
+     border-radius: 15%;
+     border-radius: 50%;
+     border: 3px solid rgb(185, 185, 185);
+}
+ 
+.section2 {
+     font-family: "Tillana", system-ui;
+     font-weight: 800;
+     font-style: normal;
+     font-size: 10px;
+     width: 25%;
+     text-align: center;
+     color: white;
+}
+ 
+.section1 span {
+     font-size: 20px;
+     font-weight: bold;
+}
+ 
+.section2 ul a{
+     color: white;
+     text-decoration: none;
+     font-size: 12px;
+}
+
+.section2 ul li{
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+.section3 {
+     font-family: "Tillana", system-ui;
+     font-weight: 800;
+     font-style: normal;
+     font-size: 10px;
+     width: 25%;
+}
+ 
+.section4 {
+     font-family: "Tillana", system-ui;
+     font-weight: 800;
+     font-style: normal;
+     font-size: 10px;
+     width: 25%;
+}
+ 
+.PGA {
+     font-size: 20px;
+}
+
+.addressicon {
+     background: url("css-sprite-combined.png") 0px -0px;
+     height: 100px;
+     width: 100px;
+     zoom: 50%;
+}
+ 
+.phoneicon {
+     background: url("css-sprite-combined.png")-100px -0px;
+     height: 100px;
+     width: 100px;
+     zoom: 50%;
+}
+ 
+.emailicon {
+     background: url("css-sprite-combined.png") -200px -0px;
+     height: 100px;
+     width: 100px;
+     zoom: 50%;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+   }
+   
+   .container {
+     max-width: 960px;
+     margin: 0 auto;
+   }
+   
+   /* Media query for small screens */
+   @media (max-width: 768px) {
+     .container {
+       padding: 20px;
+     }
+     .element {
+       width: 100%;
+     }
+   }
+
+.h3 {
+     text-align: center;
+     color: white;
+     background-color: rgb(61, 61, 61);
+     margin-top: 0;
+     margin-bottom: 0;
+     padding: 10px;
+     font-size: 13px;
+     font-family: "Kotta One", serif;
+     font-weight: 400;
+     font-style: normal;
+}
